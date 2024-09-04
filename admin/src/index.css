@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar {
+  margin-left: 20px; /* Adjust this value as needed */
+  margin-right: 20px; /* Adjust this value as needed */
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+  margin-right: 10px; /* Optional: Add space between the last link and the edge */
+}
+.navbar {
+  background-color: #2874f0; /* Flipkart's primary blue */
+}
+
+.navbar-brand img {
+  width: 100px; /* Adjust logo size */
+}
+
+.form-control {
+  width: 400px; /* Adjust search bar width */
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: #ff9f00 !important; /* Flipkart's secondary color */
+}
+
+.btn-outline-success {
+  border-color: #ff9f00;
+  color: white;
+  background-color: #ff9f00;
+}
+
+.btn-outline-success:hover {
+  background-color: #2874f0;
+  color: white;
+  border-color: white;
+}
+
